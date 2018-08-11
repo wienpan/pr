@@ -1,0 +1,10 @@
+$primary-color:rgb(252, 232, 167);
+
+body{
+    background-color: $primary-color;
+    color: aqua;
+}
+
+.card{
+    transform: rotate(90deg);
+}
