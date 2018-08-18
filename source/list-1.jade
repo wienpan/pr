@@ -1,0 +1,12 @@
+extend layout.jade
+
+block content
+  .card-columns
+    each item in KhData.result.records
+      .card
+        img.card-img-top.img-fluid(src='#{item.Picture1}', alt='Card image cap')
+        .card-body
+          h3.card-title #{item.Name}
+          p.card-text
+            | #{item.Description}
+    

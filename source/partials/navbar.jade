@@ -1,0 +1,28 @@
+nav.navbar.navbar-expand-lg.navbar-light.bg-light
+  a.navbar-brand(href='#') Navbar w/ text
+  button.navbar-toggler(type='button', data-toggle='collapse', data-target='#navbarText', aria-controls='navbarText', aria-expanded='false', aria-label='Toggle navigation')
+    span.navbar-toggler-icon
+  #navbarText.collapse.navbar-collapse
+    ul.navbar-nav.mr-auto
+      each item in menus.list
+        li.nav-item.active
+          a.nav-link(href='#{item.url}', target='_blank')
+            | #{item.name}
+nav(aria-label='...')
+  ul.pagination
+    li.page-item.disabled
+      a.page-link(href='#', tabindex='-1') Previous
+    li.page-item
+      a.page-link(href='#') 1
+    li.page-item.active
+      a.page-link(href='#')
+        | 2 
+        span.sr-only (current)
+    li.page-item
+      a.page-link(href='#') 3
+    li.page-item
+      a.page-link(href='#') Next
+   
+
+
+      

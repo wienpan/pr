@@ -4,4 +4,4 @@ node_modules
 public
 my-source
 package-lock.json
-
+.vscode

@@ -1,0 +1,13 @@
+@import "functions";
+@import "helpers/variables";
+@import "mixins";
+@import "bootstrap";
+
+
+
+body{
+    background-color: $purple;
+    color: $gray-700;
+}
+
+

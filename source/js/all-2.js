@@ -1,5 +1,5 @@
-let newFnc = ()=>{
+var newFnc = () => {
     console.log('b');
-    }
+    };
 
-newFnc()
+newFnc();
